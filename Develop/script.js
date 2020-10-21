@@ -30,7 +30,7 @@ function  generatePassword(){
       len = l
     }else{
       alert("You should input number between 8 and 128, please start again")
-      return
+      return;
     }
   
    }
@@ -46,7 +46,7 @@ function  generatePassword(){
 
   if(lowercase==false&&uppercase==false&&numeric==false&&spec_char==false){
     alert("You need choose at least one character type, please start again")
-    return
+    return;
   }
 
 
@@ -65,13 +65,13 @@ function  generatePassword(){
     charSet+="\xa0!\"#%&'()*+,-./:;<=>?@[\\]^_`{|}~"
   }
    //alert(charSet)
-  var password =""
+  var password ="";
   n = charSet.length
   for(var i = 0; i<len;i++){
     password +=charSet.charAt(Math.floor(Math.random()*n))
   }
  
-  return password
+  return password;
   }
 
 // Add event listener to generate button
