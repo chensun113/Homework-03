@@ -36,11 +36,11 @@ function  generatePassword(){
    }
 
 
-  var lowercase= confirm("Do you need **Lowercase**? \nOK -> Yes\nCancel -> No")
+  var lowercase= confirm("Do you need **Lowercase**? \nOK --> Yes\nCancel -> No")
 
-  var uppercase= confirm("Do you need **Uppercase**? \nOK -> Yes\nCancel -> No")
+  var uppercase= confirm("Do you need **Uppercase**? \nOK --> Yes\nCancel -> No")
 
-  var numeric  = confirm("Do you need **Numeric**? \nOK -> Yes\nCancel -> No")
+  var numeric  = confirm("Do you need **Numeric**? \nOK --> Yes\nCancel -> No")
 
   var spec_char= confirm("Do you need **Special Characters**? \nOK -> Yes\nCancel -> No")
 
